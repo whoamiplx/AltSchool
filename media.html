@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to My Story</h2>
+            <p>Here’s a little about my journey in engineering and technology.</p>
+            <picture>
+                <source media="(min-width: 1024px)" srcset="laptop-view.jpg">
+                <source media="(min-width: 768px)" srcset="tablet-view.jpg">
+                <source media="(max-width: 767px)" srcset="mobile-view.jpg">
+                <img src="default-view.jpg" alt="A responsive image showcasing my journey">
+            </picture>
+            <video controls>
+                <source src="introduction.mp4" type="video/mp4">
+                <source src="introduction.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <audio controls>
+                <source src="message.mp3" type="audio/mpeg">
+                <source src="message.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        <a href="index.html">Back to Profile</a>
+    </main>
+</body>
+</html>

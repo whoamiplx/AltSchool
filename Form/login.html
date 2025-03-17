@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+    <title>Alt School Login Page</title>
+</head>
+    <body>
+    <header>
+        <p>Already an AltScholar? <span><a>Sign In&excl;</a></span></p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="text-container">
+                <div class="img-div">
+                    <img src="images/AltLogo.jpg" alt="Logo" class="logo">
+                    <p>Unlock Your Potential. Learn, Grow, Succeed!</p>
+                </div>
+                <div class="social-icons">
+                    <i class="fa-brands fa-instagram" target ="_blank"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                 </div>
+                <p class="copy">2025 &copy; Amao Oluwanifesimi. All rights reserved.</p>
+            </div>
+            <div class="form-container">
+                <h2>Signup</h2>
+                <p>Make the right choice to apply at AltSchool Africa</p>
+                <form>
+                    <div class="form-flex-con laptop">
+                        <div class="form-flex-con-1">
+                            <label for="firstName-l" class="laptop">First Name</label>
+                            <input type="text" name="firstName" id="firstName-l" placeholder="First Name" autofocus
+                                class="laptop">
+                            <label for="email" class="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <label for="date-l" class="laptop">Date of Birth</label>
+                            <input type="date" name="date" id="date-l" class="laptop date">
+                            <label for="country" class="country">Country of Residence</label>
+                            <input type="text" name="country" id="country" placeholder="Country of Residence">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="password"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-flex-con-2">
+                            <label for="lastName-l" class="laptop">Last Name</label>
+                            <input type="text" name="lastName" id="lastName-l" class="laptop" placeholder="Last Name">
+                            <label for="gender-l" class="laptop">Gender</label>
+                            <select name="gender" id="gender-l" class="laptop">
+                                <option value="" selected hidden disabled>Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="nonbinary">Non-Binary</option>
+                            <option value="others">Prefer not to say</option>
+                            </select>
+                            <label for="tel" class="tel">Phone Number</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Phone Number">
+                            <label for="state" class="state">State of Residence</label>
+                            <input type="text" name="state" id="state" placeholder="State of Residence">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" class="password" placeholder="Confirm Password">
+                        </div>
+                    </div>
+                    <div class="form-flex-con mobile">
+                        <label for="firstName-m" class="mobile">First Name</label>
+                        <input type="text" name="firstName" id="firstName-m" placeholder="First Name" autofocus
+                            class="mobile">
+                        <label for="lastName-m" class="mobile">Last Name</label>
+                        <input type="text" name="lastName" id="lastName-m" class="mobile" placeholder="Last Name">
+                        <label for="email" class="mobile">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="mobile">
+                        <label for="gender-m" class="mobile label-g">Gender</label>
+                        <select name="gender" id="gender-m" class="mobile">
+                            <option value="" selected hidden disabled>Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="nonbinary">Non-Binary</option>
+                            <option value="others">Prefer not to say</option>
+                        </select>
+                        <label for="date-m" class="mobile">Date of Birth</label>
+                        <input type="date" name="date" id="date-m" class="mobile">
+                        <label for="tel-m" class="tel">Phone Number</label>
+                        <input type="tel" name="tel" id="tel-m" placeholder="Phone Number">
+                        <label for="country-m" class="country">Country of Residence</label>
+                        <input type="text" name="country" id="country-m" placeholder="Country of Residence">
+                        <label for="state-m" class="state">State of Residence</label>
+                        <input type="text" name="state" id="state-m" placeholder="State of Residence">
+                        <label for="password-m">Password</label>
+                        <input type="password" name="password" id="password-m" class="password" placeholder="Password">
+                        <label for="confirmPassword-m">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword-m" class="password" placeholder="Confirm Password">
+                    </div>
+                    <label for="outreach"><h3>How did you hear about Alt school?</h3></label>
+                    <select name="outreach" id="info">
+                        <option value="" selected hidden disabled>Select Option</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="linkedin">Linkedin</option>
+                    <input type="text" name="info" id="info" class="info" placeholder="Others">
+                    <p>By clicking continue, I agree to our <a href="#">Terms of Use</a> and acknowledge that I have
+                        read the <a href="#">Privacy Policy</a></p>
+                    <button>Signup&nbsp;&nbsp;&#10132;</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
